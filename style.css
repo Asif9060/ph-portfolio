@@ -116,7 +116,7 @@ ul li a{
     background-color: #fff8f3;
     margin: 70px auto;
     border-radius: 10px;
-    padding: 75px;
+    /* padding: 75px; */
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -124,12 +124,9 @@ ul li a{
 }
 
 .about-parent p{
-    margin: 10px 0;
+    margin: 15px 0;
 }
-.about-parent .me{
-    width: 827px;
-    height: 120px;
-}
+
 
 .about-box-parent{
     display: flex;
@@ -140,6 +137,7 @@ ul li a{
 .wrapper{
     width: 827px;
     height: 288px;
+    padding: 75px;
 }
 
 .wrapper .about{
@@ -149,4 +147,49 @@ ul li a{
 
 .about-box-parent p, h2{
     font-size: 20px;
+}
+
+/* what i do section style */
+
+.what-i-do-parent{
+    margin: 60px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.what-i-do-parent .what{
+    width: 909px;
+    height: 90px;
+    margin-bottom: 20px;
+}
+
+.what-i-do-parent .do{
+    font-size: 35px;
+    font-weight: 700;
+    margin: 20px;
+    margin-bottom: 30px;
+}
+
+.what-i-do-card-container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.what-i-do-card-container .what-i-do-card{
+    width: 204px;
+    height: 300px;
+    text-align: left;
+    padding: 22px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px gray;
+
+}
+
+.what-i-do-card h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
