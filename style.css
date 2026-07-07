@@ -237,6 +237,38 @@ ul li a{
     grid-area: six;
 }
 
+/* Experience section style */
+
+.experience{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 80px;
+}
+
+.experience h2, .experience p, .experience h4{
+    margin-bottom: 30px;
+}
+
+.experience h2{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.experience h3{
+    margin-top: 20px;
+}
+
+.experience{
+    max-width: 1000px;
+}
+
+
+
+.resume-title{
+    grid-column: 1 / -1;
+    text-align: center;
+}
+
 /* Footer Style */
 /* Footer */
 
@@ -334,3 +366,4 @@ footer form button{
     width: fit-content;
     margin-top: 10px;
 }
+
